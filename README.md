@@ -5,7 +5,7 @@ _This is a simple mod skeleton to stat making mods in Spacefligth Simulator_
 
 ## Getting Started
 
-First of all, you need to get Visual Studio Community, you can download it from this [Link] (https://visualstudio.microsoft.com/downloads/). When it is installing it will ask you to install workspaces, you need to install `.Net Desktop Development`, you also need to install `.NET Framework 4.8 SDK` in the `Individual Components` tab.
+First of all, you need to get Visual Studio Community, you can download it from this [Link](https://visualstudio.microsoft.com/downloads/). When it is installing it will ask you to install workspaces, you need to install `.Net Desktop Development`, you also need to install `.NET Framework 4.8 SDK` in the `Individual Components` tab.
 
 **Note:** Here there is an official Visual Studio installation [guide](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022)
 
@@ -26,8 +26,8 @@ Finally, you need to create a copy of `env.props.example` and name it `env.props
 
 ## How to start hacking 
 
-Once you have the project installed and can run it in-game, you can start making your mod. You will need a handy tool called `dnSpy`, this tool is used to view the game code in `Assembly-CSharp.dll` (all SFS functionality is in this file). You can download `dnSpy` at this (link)[https://github.com/dnSpy/dnSpy/releases]. To use it, you just need to open `Assembly-CSharp.dll` and dnspy will start reading the file and show you all the game code. The game code is useful to see how the game works and to see where you need to tweak to add your mods.
+Once you have the project installed and can run it in-game, you can start making your mod. You will need a handy tool called `dnSpy`, this tool is used to view the game code in `Assembly-CSharp.dll` (all SFS functionality is in this file). You can download `dnSpy` at this [link](https://github.com/dnSpy/dnSpy/releases). To use it, you just need to open `Assembly-CSharp.dll` and dnspy will start reading the file and show you all the game code. The game code is useful to see how the game works and to see where you need to tweak to add your mods.
 
-Modifications are done by `Harmony patch`, so you don't need to modify `Assembly-CSharp.dll` to add your modification. to learn about `Harmony` at this (link)[https://harmony.pardeike.net/articles/intro.html].
+Modifications are done by `Harmony patch`, so you don't need to modify `Assembly-CSharp.dll` to add your modification. to learn about `Harmony` at this [link](https://harmony.pardeike.net/articles/intro.html).
 
-The entry point (first thing to load into your mod) is the `MyMod.cs` file, you can start writing your code here. I added comments to guide you and links that can help you. If you have questions about something, you can write about it in the `Discussions` tab in this repository or go to (SFS dicord server)[https://discordapp.com/invite/hwfWm2d] and write in modding channel.
+The entry point (first thing to load into your mod) is the `MyMod.cs` file, you can start writing your code here. I added comments to guide you and links that can help you. If you have questions about something, you can write about it in the `Discussions` tab in this repository or go to [SFS dicord server](https://discordapp.com/invite/hwfWm2d) and write in modding channel.
